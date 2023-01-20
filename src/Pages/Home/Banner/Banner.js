@@ -2,7 +2,7 @@ import React from 'react';
 import char from '../../../assets/images/chair.png';
 const Banner = () => {
     return (
-        <div className="hero bg-base-100">
+        <div className="hero bg-base-100 mt-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={char} className="w-1/2 rounded-lg" alt='home banner' />
                 <div className='w-1/2'>
